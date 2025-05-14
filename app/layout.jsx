@@ -20,7 +20,8 @@ export default function RootLayout({ children }) {
 
         {/* ✅ Додаємо зовнішній скрипт */}
 <Script
-  async src="https://stage-widget.intelswift.com/script.js?tenantId=4c681175-e907-4369-9805-57b2a3212969&botId=681dc04bad835bfa88c632c6&uuid=9530ff16-b13e-4cf9-83b3-ad37b7005dc1&end=true"
+async src="https://stage-widget.intelswift.com/script.js?tenantId=4c681175-e907-4369-9805-57b2a3212969&botId=68244d97bcf3fa0182ad8c1f&uuid=9530ff16-b13e-4cf9-83b3-ad37b7005dc1&end=true"
+  
   strategy="afterInteractive"
 />
 
@@ -31,7 +32,7 @@ export default function RootLayout({ children }) {
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
-          window.onload = (event) => {
+         window.onload = (event) => {
     const propsInterval = setInterval(widgetTimer, 1000);
 
     function widgetTimer() {
