@@ -20,8 +20,7 @@ export default function RootLayout({ children }) {
 
         {/* ✅ Додаємо зовнішній скрипт */}
 <Script
-async src="https://stage-widget.intelswift.com/script.js?tenantId=4c681175-e907-4369-9805-57b2a3212969&botId=6826dce130422a7cb7f9833c&uuid=9530ff16-b13e-4cf9-83b3-ad37b7005dc1&end=true"  
-  strategy="afterInteractive"
+async src="https://stage-widget.intelswift.com/script.js?tenantId=4c681175-e907-4369-9805-57b2a3212969&botId=6826dce130422a7cb7f9833c&uuid=9530ff16-b13e-4cf9-83b3-ad37b7005dc1&end=true"  strategy="afterInteractive"
 />
 
 
@@ -59,6 +58,7 @@ async src="https://stage-widget.intelswift.com/script.js?tenantId=4c681175-e907-
       }
     }
   };
+  
             `
           }}
         />
